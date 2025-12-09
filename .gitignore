@@ -1,0 +1,5 @@
+# Exclude environment configuration
+.env
+
+# Exclude installed packages
+node_modules/

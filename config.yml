@@ -1,0 +1,30 @@
+# Replace with your Discord Application ID
+application_id: "1404522258311020634"
+
+# Activity type: 0 = Playing, 1 = Streaming, 2 = Listening, 3 = Watching
+type: 3
+
+# Activity Details
+name: "Wayde Labs"
+details: "Building the future, one product at a time"
+state: "Discover what we're launching next"
+[]
+# Activity Images
+largeImageKey: "logo-smooth"
+largeImageText: "Wayde Labs"
+smallImageKey: "verified-badge"
+smallImageText: "Verified by Wayde Corps"
+
+# Activity URL (optional, works only with certain types)
+url: "https://www.youtube.com/@waydeofficial"
+
+# Activity Buttons (optional)
+buttons:
+  - name: "Official Website"
+    url: "https://www.wayde.co"
+  - name: "Become a developer"
+    url: "https://discordapp.com/channels/@me/1215716005981200424/"
+
+# Activity Custom status
+custom_status: "Building Future"
+custom_emoji: "⚡"
