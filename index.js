@@ -21,7 +21,7 @@ const {
    * (This controls the small text-only status shown under your name)
    */
   const customStatus = new CustomStatus(client, {
-    state: config.custom_status || "🔥 Watching tutorials",
+    state: config.custom_status || "Wayde Corps",
     emoji: config.custom_emoji ? { name: config.custom_emoji } : undefined,
   });
   
@@ -32,7 +32,7 @@ const {
   const rich = new RichPresence(client)
     .setApplicationId(config.application_id)
     .setType(config.type || 0) // Activity types: 0=Playing, 1=Streaming, 2=Listening, 3=Watching
-    .setName(config.name || "My Cool Presence")
+    .setName(config.name || "Wayde Corps")
     .setDetails(config.details || "No details set")
     .setState(config.state || "Available")
     .setAssetsLargeImage(config.largeImageKey || null)
@@ -59,9 +59,9 @@ const {
         status: "online", // Options: online, idle, dnd, invisible
       });
   
-      console.log("✅ Rich Presence is now active!");
+      console.log("[✅]: Rich Presence is now active!");
     } catch (err) {
-      console.error("❌ Failed to apply presence:", err.message);
+      console.error("[❌]: Failed to apply presence:", err.message);
     }
   });
   
