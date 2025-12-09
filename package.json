@@ -1,0 +1,30 @@
+{
+    "name": "discord-rich-presence",
+    "version": "0.0.1",
+    "description": "A lightweight tool that keeps your Discord account active 24/7 with a fully customizable Rich Presence, allowing you to display custom status, details, and activity at all times.",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Realtrickz/dc-rich-presence.git"
+    },
+    "keywords": [
+      "discord",
+      "discord-rpc-always-online",
+      "self-bot"
+    ],
+    "author": "waydelabs",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Realtrickz/dc-rich-presence/issues"
+    },
+    "homepage": "https://github.com/Realtrickz/dc-rich-presence#readme",
+    "dependencies": {
+      "discord.js-selfbot-v13": "^3.7.1",
+        "dotenv": "^17.2.3",
+        "fs": "^0.0.1-security",
+        "js-yaml": "^4.1.1"
+    }
+  }
